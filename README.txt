@@ -19,3 +19,6 @@ delete /notes/:noteId
 
 
 PS: A rest client test script is added to test the api endpoints using the different verbs and url
+
+
+The site is accessible on https://whispering-scrubland-60406.herokuapp.com/notes
