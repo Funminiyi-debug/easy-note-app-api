@@ -1,0 +1,25 @@
+POST http://localhost:3500/notes 
+Content-Type: application/json
+
+{
+    "title": "note 3",
+    "content": "this is note 3"
+}
+####
+GET http://localhost:3500/notes 
+
+####
+
+GET http://localhost:3500/notes/5f0b57c7cbb31547eccbd91e
+######
+
+PUT http://localhost:3500/notes/5f0b57c7cbb31547eccbd91e
+Content-Type: application/json
+
+{
+    "title": "Note 2",
+    "content": "this was updated"
+}
+#####
+
+DELETE http://localhost:3500/notes/5f0b57d5cbb31547eccbd91f
